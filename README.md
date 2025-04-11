@@ -1,7 +1,7 @@
 ### Diferencia entre Decorator y Proxy
 
-El patrón Decorator agrega funcionalidades extra a un objeto de forma dinámica, sin modificar su estructura original. En cambio, Proxy controla el acceso al objeto, añadiendo lógica como validaciones o carga diferida, pero sin cambiar su comportamiento.
+El patrón Decorator se usa para agregar nuevas funciones a un objeto sin tener que modificar su código original, simplemente lo vas envolviendo con capas que le dan más capacidades. En cambio, el Proxy no busca añadir funciones nuevas, sino controlar cómo se accede al objeto, ya sea para protegerlo, retrasar su carga o registrar su uso.
 
 ### Cuándo usar cada uno
 
-Decorator se usa cuando quieres extender el comportamiento de un objeto sin tocar su clase; Proxy se usa cuando necesitas controlar cómo y cuándo se accede a ese objeto.
+Decorator se utiliza cuando se quieren ir sumando comportamientos a un objeto de forma flexible, como si le fueras poniendo accesorios. Proxy se usa cuando necesitas tener más control sobre el acceso al objeto, como ponerle una especie de guardia que decide cuándo y cómo se puede usar.
